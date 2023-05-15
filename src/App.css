@@ -27,3 +27,28 @@ main {
     position: relative;
     padding-bottom: 200px;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn, .btn:focus {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+}

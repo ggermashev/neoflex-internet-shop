@@ -4,5 +4,4 @@ export interface IHeadphone {
     title: string,
     price: number,
     rate: number,
-
 }

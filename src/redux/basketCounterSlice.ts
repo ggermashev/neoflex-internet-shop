@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const basketCounterSlice = createSlice({
     name: "basketCounter",
     initialState: {
-        count: JSON.parse(localStorage.getItem('buys') as string).length
+        count: JSON.parse(localStorage.getItem('buys') as string)?.length || 0
     },
     reducers: {
         increment(state) {

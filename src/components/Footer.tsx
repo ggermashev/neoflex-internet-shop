@@ -15,13 +15,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <p>Условия сервиса</p>
-                    <div className="myrow">
+                    <div className="my-row">
                         <Image src={require("../images/Globus.png")}/>
                         <h3 style={{color: "gold"}}>Рус</h3>
                         <h3>Eng</h3>
                     </div>
                 </div>
-                <div className="myrow">
+                <div className="my-row">
                     <Image className="socials" src={require("../images/VK.png")}/>
                     <Image className="socials" src={require("../images/Telegram.png")}/>
                     <Image className="socials" src={require("../images/Whatsapp.png")}/>

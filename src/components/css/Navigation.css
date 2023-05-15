@@ -1,3 +1,7 @@
+.navigation .navbar-brand {
+  margin-left: 30px;
+  font-weight: bold;
+}
 .navigation .circle-img {
   position: relative;
   top: -10px;

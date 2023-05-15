@@ -3,12 +3,13 @@ import {Button, Col, Container, Image, Row} from "react-bootstrap";
 import "./css/Card.css"
 import {useDispatch} from "react-redux";
 import {increment} from "../redux/basketCounterSlice";
+import {add} from "../redux/buysSlice";
 
 export interface ICard {
     id: number,
     img: string,
     price: number,
-    rate: number,
+    rate?: number,
     title: string,
     count: number
 }
@@ -45,6 +46,7 @@ const Card: FC<ICard> = ({id, img, price, title, rate}) => {
                                 if (!titles.includes(title)) {
                                     localStorage.setItem('buys', JSON.stringify([...products,
                                         {id: id, img: img, price: price, title: title, count: 1}]))
+                                    dispatch(add({id:id, img:img, price:price, title:title, count: 1}))
                                     dispatch(increment())
                                 } else {
                                     alert("Товар уже приобретен. Вы можете увеличить его кол-во в корзине")
@@ -57,6 +59,7 @@ const Card: FC<ICard> = ({id, img, price, title, rate}) => {
                                     title: title,
                                     count: 1
                                 }]))
+                                dispatch(add({id:id, img:img, price:price, title:title, count: 1}))
                                 dispatch(increment())
                             }
                         }}>Купить</h4>

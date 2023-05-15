@@ -9,6 +9,8 @@
 }
 .footer-wrap .footer {
   padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   height: 100%;
   display: flex;
   width: 80%;
@@ -22,16 +24,10 @@
   cursor: pointer;
 }
 .footer-wrap .footer .column {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  align-items: start;
 }
-.footer-wrap .footer .myrow {
-  display: flex;
-  flex-direction: row;
+.footer-wrap .footer .my-row {
   justify-content: space-between;
-  align-items: center;
 }
 .footer-wrap .footer .socials {
   margin-left: 5px;

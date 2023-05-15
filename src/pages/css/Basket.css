@@ -1,0 +1,19 @@
+.basket {
+  margin-top: 50px;
+}
+.basket .summary {
+  width: 80%;
+  max-width: 300px;
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+.basket .summary .my-row {
+  justify-content: space-between;
+}
+.basket .summary .buy-btn {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Basket.css.map */

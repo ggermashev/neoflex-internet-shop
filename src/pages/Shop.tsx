@@ -61,7 +61,7 @@ const Shop = () => {
             <Container fluid>
                 <Row>
                     {headphones.map(h =>
-                        <Col xs={12} sm={6} md={6} lg={4} className="col hp-card">
+                        <Col xs={12} sm={6} md={6} lg={4} xl={3} className="col hp-card">
                             <Card count={0} id={h.id} img={h.img} price={h.price} rate={h.rate} title={h.title} key={h.id}/>
                         </Col>
                     )}
