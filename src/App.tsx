@@ -1,26 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from "react-router-dom";
+import Shop from "./pages/Shop";
+import Basket from "./pages/Basket";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Navigation/>
+            <main>
+                <Routes>
+                    <Route path={"/"} element={<Shop/>}/>
+                    <Route path={"/basket"} element={<Basket/>}/>
+                </Routes>
+            </main>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;

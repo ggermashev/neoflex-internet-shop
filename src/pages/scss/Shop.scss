@@ -1,0 +1,29 @@
+.shop {
+  margin-top: 30px;
+  min-height: 90vh;
+  padding: {
+    left: 30px;
+    right: 30px;
+  };
+
+  .hp-card {
+    margin: {
+      bottom: 20px;
+    }
+  }
+
+  .star {
+    position: relative;
+    top: -3px;
+  }
+
+  .left-align {
+    align-items: start;
+    padding-left: 20px;
+  }
+
+  .right-align {
+    align-items: end;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.card {
+  width: 100%;
+  max-width: 250px  ;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+
+  .price {
+    color: gold;
+  }
+
+  .buy:hover {
+    color: gold;
+    cursor: pointer;
+  }
+}
