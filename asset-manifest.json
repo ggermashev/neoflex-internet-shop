@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/neoflex-internet-shop/static/css/main.3f95951d.css",
+    "main.js": "/neoflex-internet-shop/static/js/main.d84ef457.js",
+    "static/js/787.aeb3bbbf.chunk.js": "/neoflex-internet-shop/static/js/787.aeb3bbbf.chunk.js",
+    "static/media/Image.png": "/neoflex-internet-shop/static/media/Image.0ccf09b2255c227ea178.png",
+    "index.html": "/neoflex-internet-shop/index.html",
+    "main.3f95951d.css.map": "/neoflex-internet-shop/static/css/main.3f95951d.css.map",
+    "main.d84ef457.js.map": "/neoflex-internet-shop/static/js/main.d84ef457.js.map",
+    "787.aeb3bbbf.chunk.js.map": "/neoflex-internet-shop/static/js/787.aeb3bbbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f95951d.css",
+    "static/js/main.d84ef457.js"
+  ]
+}
