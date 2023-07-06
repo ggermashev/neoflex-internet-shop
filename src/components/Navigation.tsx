@@ -11,13 +11,13 @@ const Navigation = () => {
     return (
         <Navbar collapseOnSelect bg="white" variant="white" className="navigation">
             <Container>
-                <Navbar.Brand href="/">QPICK</Navbar.Brand>
+                <Navbar.Brand as={Link} to={"/"} >QPICK</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     </Nav>
                     <Nav>
-                        <Nav.Link as={Link} to={"#"}>
+                        <Nav.Link as={Link} to={"/"}>
                             <Image className="like-img" src={require("../images/Like.png")}/>
                             <Image className="circle-img" src={require("../images/Circle.png")}/>
                             <span className="counter-like">1</span>
